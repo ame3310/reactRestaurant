@@ -1,0 +1,17 @@
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.transition-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.transition-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
